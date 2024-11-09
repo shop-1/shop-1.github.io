@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shop-1"
 description              : "상품의 상세정보 및 리뷰"
-url                      : "https://reviewstar.kr"
+url                      : "https://review24.kr"
 baseurl                  : "/shop1"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
