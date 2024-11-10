@@ -10,6 +10,14 @@
 {% endif %}
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+
+    <!-- 여기에 디버그 코드 추가 -->
+    <div style="display:none">
+      DEBUG:
+      post.url: {{ post.url }}
+      site.baseurl: {{ site.baseurl }}
+      full url: {{ site.baseurl }}{{ post.url }}
+    </div>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
